@@ -1,0 +1,125 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px)
+  .container
+    width: auto
+  .header-nav
+    a
+      font-size: 16px
+  .btn-calc
+    margin-left: 0
+  .check-color
+    flex-wrap: wrap
+    justify-content: flex-start
+    .check-color-item
+      margin-right: 5px
+  .product-block-column-left
+    width: 38%
+  .product-block-img
+    img
+      max-width: 100%
+  .product-block-column-right
+    width: 62%
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px)
+  h1
+    font-size: 48px
+  h2
+    font-size: 22px
+  .toggle-mnu
+    display: block
+  .topline
+    flex-direction: column
+    align-items: center
+  .work-time-phone
+    text-align: center
+  .header-nav
+    flex-direction: column
+    display: none
+    a
+      width: 100%
+      border-right: none
+  .page-content
+    flex-direction: column-reverse
+  .column-right
+    margin-left: 0
+  .column-left
+    width: 100%
+  .recommendations
+    text-align: center
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px)
+  h1
+    font-size: 36px
+  h2
+    font-size: 18px
+  .product-block
+    padding-bottom: 40px
+  .product-block-head
+    font-size: 18px
+  .product-block-column-left, .product-block-column-right
+    width: 100%
+  .product-block-column-right
+    margin-top: 30px
+  .product-block-img
+    img
+      width: 200px
+      max-width: 100%
+      margin: 0 auto
+      display: block
+  .button
+    width: auto
+    display: block
+    text-align: center
+    padding: 10px 5px
+  .send-request
+    width: auto
+    text-align: center
+    display: block
+  .comments-block-headline-title
+    font-size: 14px
+  .comments-block-headline-link
+    font-size: 14px
+  .block-text .big-text
+    font-size: 20px
+    line-height: 1.3
+    margin-bottom: 25px
+  .block-text .block-text-list li
+    flex-direction: column
+    margin-bottom: 30px
+  .block-text .block-text-list li img
+    margin-right: 0
+    margin-bottom: 10px
+  .block-text-num-list li
+    flex-direction: column
+    margin-bottom: 30px
+    &::before
+      margin-right: 0
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px)
+  h1
+    font-size: 26px
+  h2
+    font-size: 16px
+  .btn-calc
+    font-size: 18px
+  .phone
+    font-size: 25px
+  .product-block-head
+    line-height: 1.2
+  .product-block-list li
+    margin-bottom: 15px
+    line-height: 1.2
+  .button
+    font-size: 15px
+  .comments-block-headline
+    flex-direction: column
+  .comments-block-headline-title
+    font-size: 16px
+    text-align: center
